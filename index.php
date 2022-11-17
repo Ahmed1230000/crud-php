@@ -37,7 +37,8 @@ require 'dbcon.php';
                                 $query =  "SELECT *FROM product";
                                 $qurey_run = mysqli_query($con,$query);
                                 if(mysqli_num_rows($qurey_run) > 0){
-                                    foreach($qurey_run as $student){                                        ?>
+                                    foreach($qurey_run as $student){                                       
+                                        ?>
                                             <tr>
                                                 <td><?= $student['id'];?></td>
                                                 <td><?= $student['name'];?></td>

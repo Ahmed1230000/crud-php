@@ -15,9 +15,9 @@ include 'code.php';
 <body>
     <div class="container mt-5">
         <?php 
-        include 'message.php'
+        include 'message.php';
         ?>
-        <?php include 'message.php';?>
+        <!-- <?php include 'message.php';?> -->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">

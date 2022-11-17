@@ -1,6 +1,7 @@
 <?php
    session_start();
    include 'code.php';
+   require 'dbcon.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
